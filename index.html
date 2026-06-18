@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css">
 </head>
 <body>
     <header>
 <nav>
 <h1>Cheesy Crust</h1>
+
 <ul>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M7.00488 7.99966V5.99966C7.00488 3.23824 9.24346 0.999664 12.0049 0.999664C14.7663 0.999664 17.0049 3.23824 17.0049 5.99966V7.99966H20.0049C20.5572 7.99966 21.0049 8.44738 21.0049 8.99966V20.9997C21.0049 21.5519 20.5572 21.9997 20.0049 21.9997H4.00488C3.4526 21.9997 3.00488 21.5519 3.00488 20.9997V8.99966C3.00488 8.44738 3.4526 7.99966 4.00488 7.99966H7.00488ZM7.00488 9.99966H5.00488V19.9997H19.0049V9.99966H17.0049V11.9997H15.0049V9.99966H9.00488V11.9997H7.00488V9.99966ZM9.00488 7.99966H15.0049V5.99966C15.0049 4.34281 13.6617 2.99966 12.0049 2.99966C10.348 2.99966 9.00488 4.34281 9.00488 5.99966V7.99966Z"></path></svg>
 <li><a href="#"></a>Home</li>
 <li><a href="#"></a>Menu</li>
-<li><a href="#"></a>Cart</li>
 <li><a href="#"></a>Contact</li>
 
 </ul>
@@ -21,20 +23,21 @@
 
     </header>
 
+
 <section class="hero" id="hero">
     <div class="text">
+        <div class="vivo">
         <h1>Fresh, Hot & Cheesy Pizza</h1>
-<p>Made with premium ingredientsand baked to perfection.Order your favoritepizza today and enjoy every bite</p>
+<p>Made with premium ingredients and baked to perfection. Order your favorite pizza today and enjoy every bite</p></div>
+<img src="./images/cheese-pull.webp" alt="cheese" width="450px" height="450px">
     </div>
-
-<div class="img">
-    <img src="./images/cheese-pull.webp" alt="">
-</div>
-<button>ORDER NOW</button>
+    <button id="order-btn">ORDER NOW</button>
 </section>
 <section class="menu" id="menu">
-<h2>Our Menu</h2>
-<div class="menu-container">
+<h3>Our Menu</h3>
+
+
+<div id="image-container">
 
     <div class="card">
         <img src="./images/margherita.jpg" alt="" height="400px" width="400px">
@@ -120,43 +123,44 @@
         <button>Add to cart</button>
     </div>
 </div>
-
+</div>
 </section>
 
 <section class="cart" id="cart">
     <h2>Your cart</h2>
     <ul id="cart-list"></ul>
     <h3>Total: Ksh <span id="Total">0</span></h3>
-    <button class="checkout-btn">checkout</button>
+    <button class="checkout-btn">checkout</button><br>
 </section>
 
+
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form><br>
+
+
+</section>
 <section class="contact" id="contact">
     <h2>Contact Us</h2>
     <p> nairobi, Kenya</p>
     <p>Phone: +254 118069569</p>
     <p>Email: info@cheesycrust.com</p>
-    <form id="contact-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Send Message</button>
-    </form>
-
-
-</section>
-
+    
 
 
 
 <footer>
     <p>&copy; 2026 Cheesy Crust. All rights reserved.</p>
-</footer>
+</footer></section>
 
 
 
