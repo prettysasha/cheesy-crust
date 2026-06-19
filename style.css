@@ -107,3 +107,40 @@ img
     font-weight: bold;
     color: black;
 }
+#contact-form
+{
+    background-color: mediumaquamarine;
+    width: 900px;
+    height: 500px;
+    display: block;
+    border-radius: 20px;
+}
+#contact{
+    background-color: black;
+    color: beige;
+display: flex;
+align-self: center;
+margin: 20px auto;
+gap: 30px;
+direction: ltr;
+
+}
+input
+{
+  width: 500px;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #d7ddea;
+  border-radius: 12px;
+  background: #fafbff;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 10px;
+}
+#message{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    resize: none;
+
+}
