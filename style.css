@@ -162,9 +162,19 @@ input
 }
 header{
     flex-direction: column;
-    gap: 15px;
-    text-align: center;
+    gap: 10px;
 }
-header nav
+header nav {
+    flex-direction: column;
+    gap: 10px;
 
+}
+.text{
+  flex-direction: column; 
+  text-align: center; 
+}
+#contact{
+flex-direction: ;
+text-align: center;
+}
 }
