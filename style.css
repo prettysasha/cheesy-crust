@@ -174,7 +174,7 @@ header nav {
   text-align: center; 
 }
 #contact{
-flex-direction: ;
+flex-direction: column;
 text-align: center;
 }
 }
